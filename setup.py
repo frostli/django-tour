@@ -41,7 +41,7 @@ setup(
     license='MIT',
     install_requires=[
         'Django>=1.6',
-        'djangorestframework>=2.3.13,<3.0',
+        'djangorestframework>=3.0',
         'django-manager-utils>=0.7.2',
         'django_filter>=0.7',
     ],

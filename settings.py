@@ -19,7 +19,7 @@ def configure_settings():
         elif test_db == 'postgres':
             db_config = {
                 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-                'USER': 'postgres',
+                'USER': 'frost',
                 'NAME': 'tour',
             }
         else:
